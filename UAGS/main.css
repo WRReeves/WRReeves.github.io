@@ -87,6 +87,10 @@ p.paperauthors{
     margin-left: 4px;
 }
 
+p.meeting-info{
+    margin-right: 4px;
+}
+
 a.paper{
     margin-top: 4px;
     margin-bottom: 4px;
