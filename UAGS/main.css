@@ -91,11 +91,11 @@ p.meeting-info{
     margin-right: 4px;
 }
 
-a.paper{
-    margin-top: 4px;
+a.pset{
+    margin-top: 16px;
     margin-bottom: 4px;
     margin-left: 4px;
     margin-right: 4px;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
