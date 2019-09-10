@@ -70,8 +70,28 @@ div.paper{
     margin-left: 10px;
     margin-right: 10px;
     border: solid lightgray 1px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
     justify-content: space-between;
+}
+
+div.paperleft{
+    justify-self: start;
+}
+
+div.papercenter{
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.paperright{
+    justify-self: stretch;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
 }
 
 p.papertitle{
@@ -92,8 +112,6 @@ p.meeting-info{
 }
 
 a.pset{
-    margin-top: 16px;
-    margin-bottom: 4px;
     margin-left: 4px;
     margin-right: 4px;
     font-family: Arial, Helvetica, sans-serif;
