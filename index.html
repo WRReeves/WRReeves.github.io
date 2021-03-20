@@ -2,60 +2,69 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel=icon href="test.png">
     </head>
     <body>
         <div id="title">
-            <h1>Wyatt Reeves</h1>
-            <div id="nav">
-                <a href="index.html" class="navlink">Home<a>
-                <a href="UAGS/index.html" class="navlink">UAGS</a>
+            <div id="titlewrapper">
+                <div id="titlediv">
+                    <p>Wyatt Reeves</p>
+                </div>
+                <div class="vl"></div>
+                <div id="nav">
+                    <a href="index.html" class="navlink">Home<a>
+                    <a href="UAGS/index.html" class="navlink">UAGS</a>
+                </div>
             </div>
         </div>
-        <div id="toptext">
-            <div id="topleft">
-                <h2>
-                    About Me
+        <div id="bodywrapper">
+            <div id="toptext">
+                <div id="topleft">
+                    <img src="me.jpg" id="picofme">
+                </div>
+                <div id="topright">
+                    <h2>
+                        About Me
+                    </h2>
+                    <div class="textcontainer">
+                        <p>I'm a first year PhD student at Harvard University, interested in geometric representation theory.
+                            I used to be an undergraduate at the University of Texas at Austin.
+                        </p>
+                        <p>Contact me at my email, wreeves *at* math [dot] harvard *dot* edu</p>
+                    </div> 
+                </div>
+            </div>
+            <hr>
+            <div class="maintext">
+                <h2 class="maintitle">
+                    Research
                 </h2>
-                <p>I'm an undergraduate math major at the University of Texas at Austin.</p>
-                <p>Contact me at my email, wyatt *dot* reeves *at* utexas *dot* edu</p> 
-                <p>Along with Zachary Gardner, I'm organizing an Undergraduate Algebraic Geometry Seminar at UT. 
-                    It will be MF 5-6 pm in PMA 9.166, starting on Friday, September 6th. A link to the homepage is 
-                    on the top right of the page (UAGS). Contact me for more information!</p>
-            </div>
-            <div id="topright">
-                <img src="me.jpg">
-            </div>
-        </div>
-
-        <div class="maintext">
-            <h2 class="maintitle">
-                Research
-            </h2>
-            <div class="paper">
-                <div>
-                    <p class="papertitle">
-                        Composable Rate-Independent Computation in Continuous Chemical Reaction Networks.
-                    </p>
-                    <p class="paperauthors">
-                        With Cameron Chalk, Niels Kornerup, and David Soloveichik.
-                    </p>
+                <div class="paper">
+                    <div>
+                        <p class="papertitle">
+                            Composable Rate-Independent Computation in Continuous Chemical Reaction Networks.
+                        </p>
+                        <p class="paperauthors">
+                            With Cameron Chalk, Niels Kornerup, and David Soloveichik.
+                        </p>
+                    </div>
+                    <a class="paper" href="https://arxiv.org/abs/1907.00053">1907.00053</a>
                 </div>
-                <a class="paper" href="https://arxiv.org/abs/1907.00053">1907.00053</a>
             </div>
-        </div>
-
-        <div class="maintext">
-            <h2 class="maintitle">
-                Exposition/Teaching
-            </h2>
-            <div class="paper">
-                <div>
-                    <p class="papertitle">
-                        An Introduction to Algebraic D-modules
-                    </p>
-                    <p></p>
+    
+            <div class="maintext">
+                <h2 class="maintitle">
+                    Exposition/Teaching
+                </h2>
+                <div class="paper">
+                    <div>
+                        <p class="papertitle">
+                            An Introduction to Algebraic D-modules
+                        </p>
+                        <p></p>
+                    </div>
+                    <a class="paper" href="Intro_to_D_modules.pdf">Intro to D-modules</a>
                 </div>
-                <a class="paper" href="Intro_to_D_modules.pdf">Intro to D-modules</a>
             </div>
         </div>
     </body>
