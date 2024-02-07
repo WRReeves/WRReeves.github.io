@@ -1,0 +1,157 @@
+#title {
+    font-family: "Helvetica", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #3e6486;
+    color: #f7f7f7;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: gray;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+#titlewrapper{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    max-width: 1000px;
+}
+
+#titlediv{
+    margin-left: 10px;
+    font-size: 26px;
+    letter-spacing: 0px;
+}
+
+div.vl{
+    border-left: 1px solid #f7f7f7;
+    height: 60px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.navlink{
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #f7f7f7
+}
+
+#bodywrapper{
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#toptext {
+    margin-top: 20px;
+    font-family: "Helvetica", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topleft {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topright {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.maintext{
+    margin-top: 20px;
+    font-family: "Helvetica", sans-serif;
+    background-color: #C3D4E3;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.maintitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.paper{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: solid gray 1px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+}
+
+div.paperleft{
+    justify-self: start;
+}
+
+div.papercenter{
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.paperright{
+    justify-self: stretch;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+p.papertitle{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+p.paperauthors{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+
+p.meeting-info{
+    margin-right: 4px;
+}
+
+a.pset{
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
