@@ -104,6 +104,8 @@ a.navlink{
     color: #f7f7f7;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 div.paper{
