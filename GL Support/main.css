@@ -102,6 +102,8 @@ a.navlink{
     margin-right: 0px;
     background-color: #3e6486;
     color: #f7f7f7;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 div.paper{
